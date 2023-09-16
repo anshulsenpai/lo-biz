@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.font-secondary {
+  font-family: 'Pacifico', cursive !important;
+}
+
+.title-underline {
+  margin-bottom: 1rem;
+}
+
+.title-underline::after {
+  content: "" !important;
+  width: 1rem !important;
+  height: 1px !important;
+  background-color: #F31559 !important;
+}
